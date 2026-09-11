@@ -2,6 +2,10 @@
 
 ### *Aspiring Web Developer | Passionate Learner*
 
+## 🌐 Live Demo
+
+[View My Resume Website] ([https://halima-chowdhury-mahima.github.io/My-Resume/])
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Aspiring+Web+Developer;Passionate+Learner;Building+Modern+Web+Experiences;Always+Learning%2C+Always+Growing" alt="Typing Animation">
 </p>
