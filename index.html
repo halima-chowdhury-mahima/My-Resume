@@ -1,464 +1,1162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Halima Chowdhury Mahima | Web Developer</title>
+  <meta
+    name="description"
+    content="Portfolio of Halima Chowdhury Mahima - Full-Stack Web Developer"
+  />
 
-    <link rel="stylesheet" href="style.css">
+  <title>Halima Chowdhury Mahima | Full-Stack Web Developer</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
+  <!-- Background Effects -->
+  <div class="bg-blur blur-one"></div>
+  <div class="bg-blur blur-two"></div>
 
-            <div class="logo">
-                Mahima<span>.</span>
-            </div>
+  <!-- ================= NAVBAR ================= -->
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+  <header class="header">
 
-        </nav>
-    </header>
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        Mahima<span>.</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#experience">Experience</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+
+      </ul>
+
+      <div class="nav-actions">
+
+        <button
+          class="theme-btn"
+          id="themeBtn"
+          aria-label="Change theme"
+        >
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+
+    </nav>
+
+  </header>
 
 
-    <!-- Hero Section -->
+  <main>
+
+    <!-- ================= HERO ================= -->
 
     <section id="home" class="hero">
 
-        <div class="hero-content">
+      <div class="container hero-container">
 
-            <p class="hello">Hello, I'm</p>
+        <!-- Left -->
 
-            <h1>
-                Halima Chowdhury
-                <span>Mahima</span>
-            </h1>
+        <div class="hero-content reveal">
 
-            <h2>Aspiring Web Developer</h2>
+          <div class="availability">
 
-            <p class="hero-description">
-                A passionate learner focused on building modern,
-                responsive, and user-friendly web applications.
-                I enjoy learning new technologies and turning ideas
-                into beautiful digital experiences.
-            </p>
+            <span class="status-dot"></span>
 
-            <div class="hero-buttons">
+            Available for opportunities
 
-                <a href="#projects" class="btn primary-btn">
-                    View Projects
-                </a>
+          </div>
 
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
-                </a>
+          <p class="eyebrow">
+            HELLO, I'M
+          </p>
 
-            </div>
+          <h1>
+
+            Halima Chowdhury
+
+            <span>Mahima.</span>
+
+          </h1>
+
+          <h2>
+            Full-Stack Web Developer
+          </h2>
+
+          <p class="typing-line">
+
+            I build
+
+            <span id="typingText"></span>
+
+            <span class="cursor">|</span>
+
+          </p>
+
+          <p class="hero-description">
+
+            I create modern, responsive and user-friendly
+            digital experiences with a focus on clean design,
+            performance and meaningful functionality.
+
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#projects" class="btn btn-primary">
+
+              View My Work
+
+              <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+
+              Let's Talk
+
+            </a>
+
+          </div>
+
+
+          <div class="hero-socials">
+
+            <a
+              href="https://github.com/halima-chowdhury-mahima"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/halima-chowdhury-mahima-661084433"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="mailto:halimachowdhurymahina@gmail.com"
+              aria-label="Email"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+
+          </div>
 
         </div>
 
 
-        <div class="hero-image">
+        <!-- Right -->
 
-            <div class="image-box">
-                <img src="assets/profile.jpg" alt="Halima Chowdhury Mahima">
+        <div class="hero-visual reveal">
+
+          <div class="photo-wrapper">
+
+            <div class="photo-glow"></div>
+
+            <div class="photo-card">
+
+              <img
+                src="assets/profile.jpg"
+                alt="Halima Chowdhury Mahima"
+              />
+
             </div>
 
+
+            <div class="floating-card code-card">
+
+              <i class="fa-solid fa-code"></i>
+
+              <div>
+                <strong>Web Developer</strong>
+                <span>Clean • Modern • Responsive</span>
+              </div>
+
+            </div>
+
+
+            <div class="floating-card location-card">
+
+              <i class="fa-solid fa-location-dot"></i>
+
+              <div>
+                <strong>Based in</strong>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
+
+      </div>
+
+      <a href="#about" class="scroll-down">
+
+        <span>Scroll</span>
+
+        <i class="fa-solid fa-arrow-down"></i>
+
+      </a>
 
     </section>
 
 
-
-    <!-- About Section -->
+    <!-- ================= ABOUT ================= -->
 
     <section id="about" class="section">
 
-        <div class="section-title">
+      <div class="container">
 
-            <p>GET TO KNOW ME</p>
+        <div class="section-heading reveal">
 
-            <h2>About Me</h2>
+          <p class="section-label">
+            01 / ABOUT ME
+          </p>
+
+          <h2>
+            Building with purpose,
+            <span>learning without limits.</span>
+          </h2>
 
         </div>
 
 
-        <div class="about-content">
+        <div class="about-grid">
 
-            <p>
-                I am Halima Chowdhury Mahima, an aspiring Web Developer
-                with a strong interest in modern web technologies.
-                I enjoy creating clean, responsive, and user-friendly
-                websites.
+          <div class="about-main reveal">
+
+            <p class="large-text">
+
+              I'm a passionate web developer focused on
+              transforming ideas into modern digital experiences.
+
             </p>
 
             <p>
-                I am continuously improving my skills in HTML, CSS,
-                JavaScript, ES6, Tailwind CSS, Node.js, React, and Next.js.
-                I also have experience using Figma and Photoshop for
-                designing creative and visually appealing interfaces.
+
+              I enjoy creating clean, responsive and user-friendly
+              websites while continuously improving my knowledge
+              of modern web technologies.
+
             </p>
 
+            <p>
+
+              My current development stack includes HTML, CSS,
+              JavaScript, TypeScript, Tailwind CSS, React,
+              Next.js and Node.js.
+
+            </p>
+
+            <p>
+
+              Alongside development, my knowledge of Figma and
+              Photoshop helps me understand both the technical
+              and visual sides of a digital product.
+
+            </p>
+
+          </div>
+
+
+          <div class="about-stats reveal">
+
+            <div class="stat-card">
+
+              <h3>10+</h3>
+
+              <p>Technologies & Tools</p>
+
+            </div>
+
+            <div class="stat-card">
+
+              <h3>4+</h3>
+
+              <p>Development Projects</p>
+
+            </div>
+
+            <div class="stat-card">
+
+              <h3>100%</h3>
+
+              <p>Passion for Learning</p>
+
+            </div>
+
+            <div class="stat-card">
+
+              <h3>∞</h3>
+
+              <p>Growth Mindset</p>
+
+            </div>
+
+          </div>
+
         </div>
+
+      </div>
 
     </section>
 
 
+    <!-- ================= SKILLS ================= -->
 
-    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
 
-    <section id="skills" class="section skills-section">
+      <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
 
-            <p>MY EXPERTISE</p>
+          <p class="section-label">
+            02 / EXPERTISE
+          </p>
 
-            <h2>Technical Skills</h2>
+          <h2>
+            Technologies I
+            <span>work with.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+
+            <h3>HTML5</h3>
+
+            <p>
+              Semantic and accessible markup.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+
+            <h3>CSS3</h3>
+
+            <p>
+              Modern responsive interfaces.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+
+            <h3>JavaScript</h3>
+
+            <p>
+              Interactive web experiences.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              TS
+            </div>
+
+            <h3>TypeScript</h3>
+
+            <p>
+              Structured and type-safe development.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+
+            <h3>React</h3>
+
+            <p>
+              Reusable component-based interfaces.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              N
+            </div>
+
+            <h3>Next.js</h3>
+
+            <p>
+              Modern full-stack React applications.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+
+            <h3>Node.js</h3>
+
+            <p>
+              Server-side JavaScript fundamentals.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              TW
+            </div>
+
+            <h3>Tailwind CSS</h3>
+
+            <p>
+              Fast and responsive UI development.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+
+            <h3>Git</h3>
+
+            <p>
+              Version control and collaboration.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+
+            <h3>GitHub</h3>
+
+            <p>
+              Project hosting and source management.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              F
+            </div>
+
+            <h3>Figma</h3>
+
+            <p>
+              UI design and prototyping.
+            </p>
+
+          </div>
+
+
+          <div class="skill-card reveal">
+
+            <div class="skill-icon">
+              PS
+            </div>
+
+            <h3>Photoshop</h3>
+
+            <p>
+              Visual design and image editing.
+            </p>
+
+          </div>
 
         </div>
 
-
-        <div class="skills-container">
-
-
-            <div class="skill-card">
-
-                <h3>Frontend Development</h3>
-
-                <div class="skill-list">
-
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
-                    <span>ES6</span>
-                    <span>Tailwind CSS</span>
-                    <span>React</span>
-                    <span>Next.js</span>
-
-                </div>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <h3>Backend & Tools</h3>
-
-                <div class="skill-list">
-
-                    <span>Node.js</span>
-                    <span>Git</span>
-                    <span>GitHub</span>
-
-                </div>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <h3>Design Tools</h3>
-
-                <div class="skill-list">
-
-                    <span>Figma</span>
-                    <span>Photoshop</span>
-
-                </div>
-
-            </div>
-
-
-        </div>
+      </div>
 
     </section>
 
 
+    <!-- ================= EXPERIENCE ================= -->
 
-    <!-- Education Section -->
+    <section id="experience" class="section">
 
-    <section id="education" class="section">
+      <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
 
-            <p>MY EDUCATION</p>
+          <p class="section-label">
+            03 / EXPERIENCE
+          </p>
 
-            <h2>Education</h2>
+          <h2>
+            Professional
+            <span>experience.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="experience-wrapper">
+
+          <article class="experience-card reveal">
+
+            <div class="experience-number">
+              01
+            </div>
+
+            <div class="experience-content">
+
+              <span class="experience-type">
+                FREELANCE
+              </span>
+
+              <h3>
+                Data Entry Freelancer
+              </h3>
+
+              <p>
+
+                Worked on data entry related tasks with a focus
+                on accuracy, organization and timely completion
+                of assigned work.
+
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="experience-card reveal">
+
+            <div class="experience-number">
+              02
+            </div>
+
+            <div class="experience-content">
+
+              <span class="experience-type">
+                TEACHING
+              </span>
+
+              <h3>
+                Preschool Teacher
+              </h3>
+
+              <p class="company">
+                Babyland International School
+              </p>
+
+              <p>
+
+                Worked with young learners while developing
+                communication, responsibility, organization
+                and classroom management skills.
+
+              </p>
+
+            </div>
+
+          </article>
 
         </div>
 
-
-        <div class="education-container">
-
-
-            <div class="education-card">
-
-                <h3>BBA in Finance & Banking</h3>
-
-                <p class="institution">
-                    Government Titumir College
-                </p>
-
-                <p>
-                    Currently studying in 2nd Year
-                </p>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <h3>Higher Secondary Certificate (HSC)</h3>
-
-                <p class="institution">
-                    Uttara Government College
-                </p>
-
-                <p>
-                    Business Studies | GPA 4.68
-                </p>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <h3>Secondary School Certificate (SSC)</h3>
-
-                <p class="institution">
-                    Dhaka Airport Government High School
-                </p>
-
-                <p>
-                    Business Studies | GPA 5.00
-                </p>
-
-            </div>
-
-
-        </div>
+      </div>
 
     </section>
 
 
+    <!-- ================= EDUCATION ================= -->
 
-    <!-- Projects Section -->
+    <section id="education" class="section section-alt">
 
-    <section id="projects" class="section projects-section">
+      <div class="container">
 
-        <div class="section-title">
+        <div class="section-heading reveal">
 
-            <p>MY WORK</p>
+          <p class="section-label">
+            04 / EDUCATION
+          </p>
 
-            <h2>Projects</h2>
+          <h2>
+            Academic
+            <span>journey.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-label">
+                CURRENT
+              </span>
+
+              <h3>
+                BBA in Finance & Banking
+              </h3>
+
+              <h4>
+                Government Titumir College
+              </h4>
+
+              <p>
+                Currently studying in 2nd Year
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-label">
+                HSC
+              </span>
+
+              <h3>
+                Higher Secondary Certificate
+              </h3>
+
+              <h4>
+                Uttara Government College
+              </h4>
+
+              <p>
+                Business Studies • GPA 4.68
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <article class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+              <span class="timeline-label">
+                SSC
+              </span>
+
+              <h3>
+                Secondary School Certificate
+              </h3>
+
+              <h4>
+                Dhaka Airport Government High School
+              </h4>
+
+              <p>
+                Business Studies • GPA 5.00
+              </p>
+
+            </div>
+
+          </article>
 
         </div>
 
-
-        <div class="projects-container">
-
-
-            <div class="project-card">
-
-                <div class="project-number">
-                    01
-                </div>
-
-                <h3>Lazeeza Jar Cake Website</h3>
-
-                <p>
-                    A beautiful and responsive website created for
-                    a homemade jar cake business. The project includes
-                    product galleries, cake pricing, menu sections,
-                    and an order form.
-                </p>
-
-                <div class="project-tech">
-
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="project-card">
-
-                <div class="project-number">
-                    02
-                </div>
-
-                <h3>Restaurant Website</h3>
-
-                <p>
-                    A responsive restaurant website featuring menu
-                    sections, food categories, navigation, and
-                    modern user interface design.
-                </p>
-
-                <div class="project-tech">
-
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Responsive Design</span>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="project-card">
-
-                <div class="project-number">
-                    03
-                </div>
-
-                <h3>Personal Resume Website</h3>
-
-                <p>
-                    A modern personal resume and portfolio website
-                    designed to showcase my skills, education,
-                    projects, and contact information.
-                </p>
-
-                <div class="project-tech">
-
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-
-                </div>
-
-            </div>
-
-
-        </div>
+      </div>
 
     </section>
 
 
+    <!-- ================= PROJECTS ================= -->
 
-    <!-- Contact Section -->
+    <section id="projects" class="section">
+
+      <div class="container">
+
+        <div class="section-heading project-heading reveal">
+
+          <div>
+
+            <p class="section-label">
+              05 / SELECTED WORK
+            </p>
+
+            <h2>
+              Featured
+              <span>projects.</span>
+            </h2>
+
+          </div>
+
+          <a
+            href="https://github.com/halima-chowdhury-mahima"
+            target="_blank"
+            class="github-link"
+          >
+            View GitHub
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+          </a>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+          <!-- FITLOG -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>01</span>
+
+              <i class="fa-solid fa-dumbbell"></i>
+
+            </div>
+
+            <p class="project-category">
+              NEXT.JS APPLICATION
+            </p>
+
+            <h3>
+              FitLog
+            </h3>
+
+            <p>
+
+              A modern workout tracking application where users
+              can explore workouts, view workout details, save
+              exercises and build a personal workout plan.
+
+            </p>
+
+            <div class="project-tech">
+
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- DEV STACK -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>02</span>
+
+              <i class="fa-solid fa-layer-group"></i>
+
+            </div>
+
+            <p class="project-category">
+              REACT APPLICATION
+            </p>
+
+            <h3>
+              Dev Stack
+            </h3>
+
+            <p>
+
+              A responsive technology discovery application
+              featuring technology cards and a personal
+              technology stack management experience.
+
+            </p>
+
+            <div class="project-tech">
+
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind</span>
+
+            </div>
+
+
+            <div class="project-links">
+
+              <a
+                href="https://dev-stack-sigma.vercel.app/"
+                target="_blank"
+              >
+                Live Demo
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+              <a
+                href="https://github.com/halima-chowdhury-mahima/Dev-stack"
+                target="_blank"
+              >
+                GitHub
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- MOM -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>03</span>
+
+              <i class="fa-solid fa-mobile-screen-button"></i>
+
+            </div>
+
+            <p class="project-category">
+              MOBILE APPLICATION
+            </p>
+
+            <h3>
+              MOM App
+            </h3>
+
+            <p>
+
+              A mobile shopping application for everyday needs,
+              featuring grocery, skincare and medicine
+              categories with cart and checkout functionality.
+
+            </p>
+
+            <div class="project-tech">
+
+              <span>React Native</span>
+              <span>Expo</span>
+              <span>TypeScript</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- LAW FIRM -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>04</span>
+
+              <i class="fa-solid fa-scale-balanced"></i>
+
+            </div>
+
+            <p class="project-category">
+              PROFESSIONAL WEBSITE
+            </p>
+
+            <h3>
+              Chowdhury Law Chamber
+            </h3>
+
+            <p>
+
+              A professional law firm website with lawyer
+              profiles, practice areas, firm information and
+              a modern responsive user interface.
+
+            </p>
+
+            <div class="project-tech">
+
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
 
     <section id="contact" class="section contact-section">
 
-        <div class="section-title">
+  <div class="container">
 
-            <p>LET'S CONNECT</p>
+    <div class="contact-box reveal">
 
-            <h2>Contact Me</h2>
+      <!-- Decorative Glow -->
+      <div class="contact-glow contact-glow-one"></div>
+      <div class="contact-glow contact-glow-two"></div>
+
+      <div class="contact-content">
+
+        <p class="section-label">
+          06 / GET IN TOUCH
+        </p>
+
+        <h2>
+          Have an idea?
+          <span>Let's build it.</span>
+        </h2>
+
+        <p class="contact-description">
+          I'm interested in opportunities where I can learn,
+          contribute and build meaningful digital experiences.
+        </p>
+
+
+        <!-- Email Card -->
+        <a
+          href="mailto:halimachowdhurymahina@gmail.com"
+          class="premium-email"
+        >
+
+          <div class="email-icon">
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+
+          <div class="email-info">
+
+            <small>EMAIL ME AT</small>
+
+            <strong>
+              halimachowdhurymahina@gmail.com
+            </strong>
+
+          </div>
+
+          <div class="email-arrow">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </div>
+
+        </a>
+
+
+        <!-- Social Buttons -->
+        <div class="premium-socials">
+
+          <a
+            href="https://github.com/halima-chowdhury-mahima"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+
+
+          <a
+            href="https://www.linkedin.com/in/halima-chowdhury-mahima-661084433"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+
+
+          <a
+            href="https://facebook.com/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+            <span>Facebook</span>
+          </a>
+
+
+          <a
+            href="mailto:halimachowdhurymahina@gmail.com"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
 
         </div>
 
-
-        <div class="contact-container">
-
-
-            <div class="contact-card">
-
-                <h3>Email</h3>
-
-                <p>
-                    halimachowdhurymahina@gmail.com
-                </p>
-
-            </div>
-
-
-            <div class="contact-card">
-
-                <h3>GitHub</h3>
-
-                <a
-                    href="https://github.com/halima-chowdhury-mahima"
-                    target="_blank"
-                >
-                    halima-chowdhury-mahima
-                </a>
-
-            </div>
-
-
-            <div class="contact-card">
-
-                <h3>Location</h3>
-
-                <p>Dhaka, Bangladesh</p>
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-
-    <!-- Footer -->
-
-    <footer class="footer">
-    <div class="footer-content">
-
-        <p>&copy; 2026 Halima Chowdhury Mahima. All Rights Reserved.</p>
-
-        <div class="footer-links">
-
-            <!-- Facebook -->
-            <a href="https://facebook.com/" target="_blank" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-
-            <!-- LinkedIn -->
-            <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-
-            <!-- Instagram -->
-            <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-            </a>
-
-            <!-- Phone -->
-            <a href="tel:+8801XXXXXXXXX" aria-label="Phone">
-                <i class="fas fa-phone"></i>
-            </a>
-
-            <!-- Email -->
-            <a href="mailto:halimachowdhurymahina@gmail.com" aria-label="Email">
-                <i class="fas fa-envelope"></i>
-            </a>
-
-        </div>
+      </div>
 
     </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="container footer-container">
+
+    <!-- Logo -->
+    <a href="#home" class="logo">
+      Mahima<span>.</span>
+    </a>
+
+
+    <!-- Copyright -->
+    <p>
+      © 2026 Halima Chowdhury Mahima.
+      Designed & built with passion.
+    </p>
+
+
+    <!-- Social Icons -->
+    <div class="footer-socials">
+
+      <!-- LinkedIn -->
+      <a
+        href="https://www.linkedin.com/in/halima-chowdhury-mahima-661084433"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+
+
+      <!-- GitHub -->
+      <a
+        href="https://github.com/halima-chowdhury-mahima"
+        target="_blank"
+        aria-label="GitHub"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+
+      <!-- Facebook -->
+      <a
+        href="https://facebook.com/"
+        target="_blank"
+        aria-label="Facebook"
+      >
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+
+
+      <!-- Email -->
+      <a
+        href="mailto:halimachowdhurymahina@gmail.com"
+        aria-label="Email"
+      >
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+
+    </div>
+
+
+    <!-- Back To Top -->
+    <a href="#home" class="back-top">
+
+      Back to top
+
+      <i class="fa-solid fa-arrow-up"></i>
+
+    </a>
+
+  </div>
+
 </footer>
-   
-   <script src="script.js"></script>
+
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
